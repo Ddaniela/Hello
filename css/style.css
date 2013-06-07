@@ -14,9 +14,11 @@ div.wrapper{
 
 header {
 	text-align: left;
-	margin-top: 5px	
+	margin-top: 5px	;
 }
-
+header h1{
+  font-style: italic;
+}
 article {
   width:350px;
   display: inline-block;
@@ -29,6 +31,12 @@ article h1 {
 
 footer{
 	text-align: right;
+}
+div.front{
+  display: inline-block;
+}
+div.main{
+  background-color: #ddd;
 }
 a.button{
 	background-color:#C49B89;
@@ -55,11 +63,12 @@ nav ul li a {
   display: inline-block;
   padding: 10px 30px;
   text-decoration: none;
-  background-color: #ddd;
+  background-color: #555563;
   border-radius: 5px ;
+  color:#BDBDDE;
 }
 
 nav ul li a:hover {
-  background-color: #aaa;
+  background-color: #8989A1;
 }
 
